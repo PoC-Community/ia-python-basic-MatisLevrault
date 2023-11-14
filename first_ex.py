@@ -10,7 +10,7 @@ def robotProgram():
         if (i == goal):
             return victory
 
-    print(i, retry)
+        print(i, retry)
 
 assert(robotProgram() == 'Success !'), "File is still corrupted"
 print("The file isn't corrupted anymore, good job !")
